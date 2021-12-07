@@ -1,0 +1,15 @@
+baselib公用的一些库
+目录说明:
+    baselib.aPublic:公共的一些最基本的,一般每个项目多会用到
+        baselib.aPublic.GlobalHelper:全局变量存储
+        baselib.aPublic.HTTPClient:HTTP请求底层类
+        baselib.aPublic.PublicApi:一些公用的API
+        baselib.aPublic.PublicClass:一些公用的类
+        baselib.aPublic.UploadFileApi:文件上传下载游览删除等功能
+    baselib.login:几个对接后台的登陆接口
+    baselib.module:主要针对OneNetAdmin管理员后台对后台配置的一些管理,一般项目没什么用，你可以去除这个包
+    baselib.weixin:有用到微信相关功能的此包才有用，比如微信author2登陆
+    baselib.baidu:百度API接口,有用到才引用
+
+_________________________________________________________________
+注:一般项目引用baselib.aPublic目录即可，其它的有用到在引用。
